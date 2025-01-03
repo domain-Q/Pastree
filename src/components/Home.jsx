@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useSearchParams } from "react-router-dom";
-import { addToPaste, updateToPaste } from "../redux/pasteSlice";
+import { addToPaste, updateToPaste } from "../redux/PasteSlice";
 
 const Home = () => {
   const [title, setTitle] = useState("");
