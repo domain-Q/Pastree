@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { removeFromPaste } from "../redux/pasteSlice";
+import { removeFromPaste } from "../redux/PasteSlice";
 import toast from "react-hot-toast";
 import { Link } from "react-router-dom";
 
